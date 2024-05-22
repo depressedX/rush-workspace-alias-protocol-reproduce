@@ -10,8 +10,8 @@ importers:
 
   ../../apps/my-app:
     dependencies:
-      my-controls:
-        specifier: workspace:^1.0.0
+      alias-for-my-controls:
+        specifier: workspace:my-controls@^1.0.0
         version: link:../../libraries/my-controls
       whatwg-fetch:
         specifier: ^3.6.2

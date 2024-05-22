@@ -9,7 +9,7 @@
     "my-bulk-command": "my-bulk-command"
   },
   "dependencies": {
-    "my-controls": "workspace:^1.0.0",
+    "alias-for-my-controls": "workspace:my-controls@^1.0.0",
     "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {
